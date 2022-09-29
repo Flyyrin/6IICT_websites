@@ -1,5 +1,5 @@
 body {
-	background-color: grey;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 	}
 
 header, aside, footer, article {
@@ -7,7 +7,7 @@ header, aside, footer, article {
 	}
 
 header, footer {
-	background-color: white;
+	background-color: rgb(173, 173, 173);
 	padding: 5px;
 	}
 
@@ -17,11 +17,18 @@ header {
 	text-align: center;
 	padding-top: 80px;
 	color: white;
-	}
+}
 	
+header h1 {
+	font-size: 90px;
+	color: white;
+	border: 30px black;
+}
+
 h1 {
 	font-size: 90px;
-	}
+}
+
 aside {
 	float: right;
 	width: 20%;
@@ -37,7 +44,9 @@ article {
 	margin: 10px;
 	margin-left: 0px;
 	padding: 10px;
-	background-color: #DDDDDD;	/*lichtgrijs*/
+	background-color: #353535;	/*lichtgrijs*/
+	color: aliceblue;
+
 	}
 	
 footer {
@@ -49,4 +58,19 @@ p {
 	font-style: normal;
 	font-weight: 200;
 	margin: 10px;
+	margin-top: 0;
+	padding-top: 0;
+	color: aliceblue;
+
+}
+
+* {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+	font-family: Verdana, arial, sans-serif;
+}
+
+h3 {
+	color: aliceblue;
 }
